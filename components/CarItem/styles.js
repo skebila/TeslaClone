@@ -19,11 +19,19 @@ const styles = StyleSheet.create({
         fontSize: 16,
         color:'#5c5e62'
     },
+    subtitleCTA: {
+        textDecorationLine: 'underline',
+    },
     image: {
         height: '100%',
         width: '100%',
         resizeMode: 'cover',
         position: 'absolute',
+    },
+    buttonContainer: {
+        position: 'absolute',
+        bottom: 50,
+        width: '100%',
     }
 
 })
